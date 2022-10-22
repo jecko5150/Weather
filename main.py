@@ -13,8 +13,7 @@ loc = coordinates.json()
 location = dict(loc[0])
 lat = location['lat']
 lon = location['lon']
-# print(lat)
-# print(lon)
+
 
 call = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&units=imperial&appid={API}"
 
